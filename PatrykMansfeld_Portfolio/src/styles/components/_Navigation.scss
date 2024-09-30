@@ -1,0 +1,26 @@
+.NavigationList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.NavigationListElement {
+  margin: 0 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  &:hover {
+    color: blue;
+  }
+}

@@ -2,17 +2,19 @@ export default function Navigation() {
   return (
     <div>
       <div>
-        <h1>Navigation</h1>
-        <ul>
-            <li>
-                <a href="#about">About Me</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+        <ul className="NavigationList">
+          <li className="NavigationListElement">
+            <a href="#about">Link 1</a>
+          </li>
+          <li className="NavigationListElement">
+            <a href="#projects">Link 2</a>
+          </li>
+          <li className="NavigationListElement">
+            <a href="#contact">Link 3</a>
+          </li>
+          <li className="NavigationListElement">
+            <a href="#contact">Link 4</a>
+          </li>
         </ul>
       </div>
     </div>
