@@ -1,8 +1,4 @@
 @import "./components/_Navigation.scss";
 @import "./pages/_WelcomePage.scss";
-
+@import "./Mixins/_Mixin.scss";
 @import "./Reset.scss";
-
-* {
-    background-color: lightgrey
-}

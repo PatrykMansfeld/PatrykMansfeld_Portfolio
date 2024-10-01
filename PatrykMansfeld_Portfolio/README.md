@@ -1,7 +1,10 @@
 <h1 align='center'>Patryk Mansfeld Portfolio Documaentation</h1>
 
-# Content:
+# Navigation Content:
 <ul>
-<li> dsada
-<li> dsadsa
+<li> About Me
+<li> SKills
+<li> Expirience / University
+<li> Projects 
+<li> Contact
 </ul>
