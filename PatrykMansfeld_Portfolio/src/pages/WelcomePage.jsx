@@ -4,8 +4,10 @@ function WelcomePage() {
   return (
     <div>
       <div className="WelcomePageTopRow">
-        <h1 className="WelcomeText">Welcome To Patryk Mansfeld Portfolio</h1>
-        <Navigation />
+        {/* <Navigation /> */}
+        <div className="centarlObject">
+          <h1 className="centralObjectText">Welcome to my portfolio</h1>
+        </div>
       </div>
     </div>
   );
