@@ -2,3 +2,7 @@
 @import "./pages/_WelcomePage.scss";
 @import "./Mixins/_Mixin.scss";
 @import "./Reset.scss";
+
+body {
+    @include gradientBackground(Black, DarkSlateGray, Black);
+}

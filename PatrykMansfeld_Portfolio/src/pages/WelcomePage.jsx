@@ -1,13 +1,10 @@
-import Navigation from "../components/Navigation";
-
+// import Navigation from "../components/Navigation";
+import AboutMeFront from "../components/FrontPages/AboutMeFront";
 function WelcomePage() {
   return (
     <div>
       <div className="WelcomePageTopRow">
-        {/* <Navigation /> */}
-        <div className="centarlObject">
-          <h1 className="centralObjectText">Welcome to my portfolio</h1>
-        </div>
+        <AboutMeFront />
       </div>
     </div>
   );
