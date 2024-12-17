@@ -5,6 +5,6 @@
   flex-direction: $direction;
 }
 
-@mixin gradientBackground($color1, $color2, $color3) {
+@mixin gradientBackground($color1 , $color2, $color3) {
   background: linear-gradient(to right, $color1, $color2, $color3);
 }

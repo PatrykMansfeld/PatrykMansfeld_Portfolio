@@ -4,5 +4,5 @@
 @import "./Reset.scss";
 
 body {
-    @include gradientBackground(Black, DarkSlateGray, Black);
+    background-color: grey;
 }
